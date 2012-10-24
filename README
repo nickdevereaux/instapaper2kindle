@@ -3,7 +3,7 @@ At least from what I've found. Sending to a free.kindle.com account if that help
 
 All this script does is simulate the action of logging in and hitting the send button. Perfect for crontab :)
 
-Update the settings.cfg file with your username and password. Password is optional (in line with Instapaper's website)
+Copy settings.example.cfg to settings.cfg and change to your username and password. Password is optional (in line with Instapaper's website)
 
 Open crontab with 'crontab -e' and enter the following to receive an update every Friday at 5pm. 
 
